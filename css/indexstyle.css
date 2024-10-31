@@ -1,0 +1,45 @@
+
+
+
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  color: #23527c;
+}
+
+#about:target {
+  scroll-behavior: smooth;
+  scroll-snap-align: start;
+}
+
+#education:target {
+  scroll-behavior: smooth;
+  scroll-snap-align: start;
+}
+#skills:target {
+  scroll-behavior: smooth;
+  scroll-snap-align: start;
+}
+#activities:target {
+  scroll-behavior: smooth;
+  scroll-snap-align: start;
+}
+#award:target {
+  scroll-behavior: smooth;
+  scroll-snap-align: start;
+}
+html {
+  scroll-behavior: smooth;
+}
